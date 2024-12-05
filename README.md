@@ -55,12 +55,12 @@ DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 ```
 
-#### 4. Run the application
+#### 4. Run the application (locally)
 
 To start the application, run:
 
 ```bash
-yarn start
+yarn dev
 ```
 ## Directory Structure
 
