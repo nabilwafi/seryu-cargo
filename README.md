@@ -48,6 +48,7 @@ cp .env.example .env
 Set up your environment variables. Create a .env file in the root of the project and configure the necessary database settings and other variables:
 
 ```bash
+PORT=3000
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=your_db_user
