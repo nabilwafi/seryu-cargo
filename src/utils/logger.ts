@@ -1,15 +1,15 @@
-import pino from 'pino';
-import pretty from 'pino-pretty';
-import moment from 'moment';
+import pino from 'pino'
+import pretty from 'pino-pretty'
+import moment from 'moment'
 
 const logger = pino(
   {
     base: {
-      pid: false,
+      pid: false
     },
-    timestamp: () => `,"time":"${moment().format()}"`,
+    timestamp: () => `,"time":"${moment().format()}"`
   },
-  pretty(),
-);
+  pretty()
+)
 
-export default logger;
+export default logger
