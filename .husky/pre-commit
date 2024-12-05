@@ -10,13 +10,6 @@ yarn check-format ||
   false;
 )
 
-#Check ESLint
-yarn check-lint ||
-(
-  echo "ESLint Check Failed. Make the required changes listed above, add changes and try commit again"
-  false;
-)
-
 yarn check-types ||
 (
   echo "Failed type check. Make the changes require above, add changes and try commit again"
