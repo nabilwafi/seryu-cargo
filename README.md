@@ -88,7 +88,7 @@ yarn dev
 This application exposes several API endpoints. Below is the list of available endpoints:
 
 #### 1. GET /v1/salary/driver/list?month=3&year=2024
-Check the health status of the application.
+Check all salary drivers by month and year.
 
 Example request:
 
